@@ -10,7 +10,7 @@ int queueSize = 0;
 bool isEmpty() {
     return (queueSize == 0);
 }
-
+ 
 void enqueue(int data) {
     if (queueSize == MAX_SIZE) {
         cout << "Queue is full. Cannot enqueue " << data << endl;
