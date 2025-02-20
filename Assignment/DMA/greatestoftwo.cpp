@@ -1,6 +1,7 @@
 // wap to find the greatest of two integers using pointers.
 
 #include <iostream>
+
 using namespace std;
 
 int main() {
@@ -14,4 +15,4 @@ int main() {
         cout << "Greatest number: " << *p2 << endl;
     }
     return 0;
-}
+}              
